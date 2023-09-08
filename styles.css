@@ -1,6 +1,48 @@
 
-/* Your CSS Code here. 
+/* * Your CSS Code here.  */
+
 table{
-	border-collapse: collapse;
-	border: 1px solid;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
 }
+
+th, tr, td{
+	border: 1px solid black;
+  border-collapse: collapse;
+/*   width: 100%; */
+}
+
+.heading{
+	text-align: left;
+	color: white;
+	background-color: #C0504D;
+}
+.table td{
+	text-align: right;
+}
+.row-1{
+/* 	text-align: right; */
+	background-color: #DA9694;
+	color: white;
+}
+
+.row-2{
+/* 	text-align: right; */
+	background-color: #F2DCDB;
+}
+
+.row-3{
+/* 	text-align: right; */
+	background-color: #D9D9D9;
+	
+}
+table td:first-child {
+    text-align: left;
+}
+table td{
+    text-align: right;
+}
+
+
+	
